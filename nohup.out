@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "manage.py", line 17, in <module>
+    "Couldn't import Django. Are you sure it's installed and "
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Traceback (most recent call last):
+  File "manage.py", line 17, in <module>
+    "Couldn't import Django. Are you sure it's installed and "
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/lib64/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib64/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/OutNK/mysite/mysite/blog/views.py", line 15, in archive
+    return HttpResponse(t.render(c))
+  File "/usr/lib64/python2.7/site-packages/django/template/backends/django.py", line 64, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/usr/lib64/python2.7/site-packages/django/template/context.py", line 287, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than Context.
+[05/Apr/2017 15:29:16] "GET / HTTP/1.1" 500 72335
+[05/Apr/2017 15:29:22] "GET /blog HTTP/1.1" 301 0
+[05/Apr/2017 15:29:23] "GET /blog/ HTTP/1.1" 200 4626
+[05/Apr/2017 15:29:25] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[05/Apr/2017 15:29:25] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[05/Apr/2017 15:29:26] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[05/Apr/2017 15:29:26] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[05/Apr/2017 15:29:27] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[05/Apr/2017 15:29:27] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[05/Apr/2017 15:29:27] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[05/Apr/2017 15:29:27] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
