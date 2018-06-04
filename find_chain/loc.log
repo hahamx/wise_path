@@ -1,0 +1,90 @@
+[2018-06-04 22:26:15,394] len-PC/INFO/locust.main: Run time limit set to 10 seconds
+[2018-06-04 22:26:15,394] len-PC/INFO/locust.main: Starting Locust 0.8
+[2018-06-04 22:26:15,394] len-PC/INFO/locust.runners: Hatching and swarming 3 clients at the rate 1 clients/s...
+[2018-06-04 22:26:15,411] len-PC/INFO/stdout: start stress chain
+[2018-06-04 22:26:15,411] len-PC/INFO/stdout: 
+[2018-06-04 22:26:15,426] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:15,426] len-PC/INFO/stdout: 
+[2018-06-04 22:26:15,426] len-PC/INFO/stdout: Get wrong respone:{"index": 21, "data": {"transactions": [{"to": "Jack", "amount": 18881, "from": "network"}, {"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 80, "from": "network"}], "proof-of-work": 180}, "hash": "965660fd26f681564d10844bdf3d3c7673b74988d938564ad249acc601280b4e", "timestamp": "2018-06-04 22:26:15.426000"}
+[2018-06-04 22:26:15,426] len-PC/INFO/stdout: 
+[2018-06-04 22:26:16,414] len-PC/INFO/stdout: start stress chain
+[2018-06-04 22:26:16,414] len-PC/INFO/stdout: 
+[2018-06-04 22:26:16,414] len-PC/INFO/stdout: get_block,<Response [200]>
+[2018-06-04 22:26:16,414] len-PC/INFO/stdout: 
+[2018-06-04 22:26:16,414] len-PC/INFO/stdout: Get wrong respone:{"index": "21", "data": "{'transactions': [{u'to': u'Jack', u'amount': 18881, u'from': u'network'}, {'to': 'q3nf394hjg-random-miner-address-34nf3i4nflkn3oi', 'amount': 80, 'from': 'network'}], 'proof-of-work': 180}", "hash": "1c6ee31d159ca0e35ac86a57ca75945506ac0e30ccc59561343f832011cb6657", "timestamp": "2018-06-04 22:26:15.426000"}
+[2018-06-04 22:26:16,414] len-PC/INFO/stdout: 
+[2018-06-04 22:26:17,302] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:17,302] len-PC/INFO/stdout: 
+[2018-06-04 22:26:17,302] len-PC/INFO/stdout: Get wrong respone:{"index": 21, "data": {"transactions": [{"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 823, "from": "network"}], "proof-of-work": 180}, "hash": "3f0b570a16b773ab41799fec1a6a1c78f2c70b11ec7a726e55c01cdd1cdbbc27", "timestamp": "2018-06-04 22:26:17.288000"}
+[2018-06-04 22:26:17,302] len-PC/INFO/stdout: 
+[2018-06-04 22:26:17,427] len-PC/INFO/stdout: start stress chain
+[2018-06-04 22:26:17,427] len-PC/INFO/stdout: 
+[2018-06-04 22:26:17,444] len-PC/INFO/stdout: txion,<Response [200]>
+[2018-06-04 22:26:17,444] len-PC/INFO/stdout: 
+[2018-06-04 22:26:17,444] len-PC/INFO/stdout: Get wrong respone:Transaction submission successful
+[2018-06-04 22:26:17,444] len-PC/INFO/stdout: 
+[2018-06-04 22:26:17,584] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:17,584] len-PC/INFO/stdout: 
+[2018-06-04 22:26:17,584] len-PC/INFO/stdout: Get wrong respone:{"index": 22, "data": {"transactions": [{"to": "Augustine.Johnson", "amount": 51087, "from": "Frank.Lewis"}, {"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 702, "from": "network"}], "proof-of-work": 63}, "hash": "7f7f6f329fb23b9e30984ce9615bca8227b3327697165c79a019764882c37283", "timestamp": "2018-06-04 22:26:17.584000"}
+[2018-06-04 22:26:17,584] len-PC/INFO/stdout: 
+[2018-06-04 22:26:18,441] len-PC/INFO/locust.runners: All locusts hatched: web_user: 1, mobile_user: 2
+[2018-06-04 22:26:18,441] len-PC/INFO/locust.runners: Resetting stats
+
+[2018-06-04 22:26:18,519] len-PC/INFO/stdout: get_block,<Response [200]>
+[2018-06-04 22:26:18,519] len-PC/INFO/stdout: 
+[2018-06-04 22:26:18,519] len-PC/INFO/stdout: Get wrong respone:{"index": "22", "data": "{'transactions': [{u'to': u'Augustine.Johnson', u'amount': 51087, u'from': u'Frank.Lewis'}, {'to': 'q3nf394hjg-random-miner-address-34nf3i4nflkn3oi', 'amount': 702, 'from': 'network'}], 'proof-of-work': 63}", "hash": "23385a611a3f0501637b0bc1a5ea21b483c011d3e5fddde7d091330e101b1428", "timestamp": "2018-06-04 22:26:17.584000"}
+[2018-06-04 22:26:18,519] len-PC/INFO/stdout: 
+[2018-06-04 22:26:19,082] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:19,082] len-PC/INFO/stdout: 
+[2018-06-04 22:26:19,082] len-PC/INFO/stdout: Get wrong respone:{"index": 23, "data": {"transactions": [{"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 962, "from": "network"}], "proof-of-work": 198}, "hash": "23385a611a3f0501637b0bc1a5ea21b483c011d3e5fddde7d091330e101b1428", "timestamp": "2018-06-04 22:26:19.082000"}
+[2018-06-04 22:26:19,082] len-PC/INFO/stdout: 
+[2018-06-04 22:26:19,082] len-PC/INFO/stdout: get_block,<Response [200]>
+[2018-06-04 22:26:19,082] len-PC/INFO/stdout: 
+[2018-06-04 22:26:19,082] len-PC/INFO/stdout: Get wrong respone:{"index": "22", "data": "{'transactions': [{u'to': u'Augustine.Johnson', u'amount': 51087, u'from': u'Frank.Lewis'}, {'to': 'q3nf394hjg-random-miner-address-34nf3i4nflkn3oi', 'amount': 702, 'from': 'network'}], 'proof-of-work': 63}", "hash": "23385a611a3f0501637b0bc1a5ea21b483c011d3e5fddde7d091330e101b1428", "timestamp": "2018-06-04 22:26:17.584000"}
+[2018-06-04 22:26:19,082] len-PC/INFO/stdout: 
+[2018-06-04 22:26:19,408] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:19,408] len-PC/INFO/stdout: 
+[2018-06-04 22:26:19,408] len-PC/INFO/stdout: Get wrong respone:{"index": 24, "data": {"transactions": [{"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 679, "from": "network"}], "proof-of-work": 207}, "hash": "436b59f5e9e492b5ff21ee005ee4bd0487cd8c8f261c8e531f213ea140dc5ef8", "timestamp": "2018-06-04 22:26:19.409000"}
+[2018-06-04 22:26:19,408] len-PC/INFO/stdout: 
+[2018-06-04 22:26:20,407] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:20,407] len-PC/INFO/stdout: 
+[2018-06-04 22:26:20,407] len-PC/INFO/stdout: Get wrong respone:{"index": 25, "data": {"transactions": [{"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 924, "from": "network"}], "proof-of-work": 72}, "hash": "a5a421892d86ff8e6005acebb36c3a12ad23dd019b0df158bad8bf7a68c0f70b", "timestamp": "2018-06-04 22:26:20.408000"}
+[2018-06-04 22:26:20,407] len-PC/INFO/stdout: 
+[2018-06-04 22:26:20,578] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:20,578] len-PC/INFO/stdout: 
+[2018-06-04 22:26:20,578] len-PC/INFO/stdout: Get wrong respone:{"index": 26, "data": {"transactions": [{"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 302, "from": "network"}], "proof-of-work": 225}, "hash": "01733aa310355e016050deace9719aef157e06c353e7580bdac14552585dad5d", "timestamp": "2018-06-04 22:26:20.579000"}
+[2018-06-04 22:26:20,578] len-PC/INFO/stdout: 
+[2018-06-04 22:26:20,734] len-PC/INFO/stdout: get_block,<Response [200]>
+[2018-06-04 22:26:20,734] len-PC/INFO/stdout: 
+[2018-06-04 22:26:20,734] len-PC/INFO/stdout: Get wrong respone:{"index": "26", "data": "{'transactions': [{'to': 'q3nf394hjg-random-miner-address-34nf3i4nflkn3oi', 'amount': 302, 'from': 'network'}], 'proof-of-work': 225}", "hash": "6887dbfe324fb820cbb786cf298bc09d967f4e5a0733e18392d768e45b7dbaa1", "timestamp": "2018-06-04 22:26:20.579000"}
+[2018-06-04 22:26:20,734] len-PC/INFO/stdout: 
+[2018-06-04 22:26:20,969] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:20,969] len-PC/INFO/stdout: 
+[2018-06-04 22:26:20,969] len-PC/INFO/stdout: Get wrong respone:{"index": 27, "data": {"transactions": [{"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 178, "from": "network"}], "proof-of-work": 234}, "hash": "6887dbfe324fb820cbb786cf298bc09d967f4e5a0733e18392d768e45b7dbaa1", "timestamp": "2018-06-04 22:26:20.969000"}
+[2018-06-04 22:26:20,969] len-PC/INFO/stdout: 
+[2018-06-04 22:26:21,562] len-PC/INFO/stdout: txion,<Response [200]>
+[2018-06-04 22:26:21,562] len-PC/INFO/stdout: 
+[2018-06-04 22:26:21,562] len-PC/INFO/stdout: Get wrong respone:Transaction submission successful
+[2018-06-04 22:26:21,562] len-PC/INFO/stdout: 
+[2018-06-04 22:26:22,700] len-PC/INFO/stdout: txion,<Response [200]>
+[2018-06-04 22:26:22,700] len-PC/INFO/stdout: 
+[2018-06-04 22:26:22,700] len-PC/INFO/stdout: Get wrong respone:Transaction submission successful
+[2018-06-04 22:26:22,700] len-PC/INFO/stdout: 
+[2018-06-04 22:26:23,013] len-PC/INFO/stdout: txion,<Response [200]>
+[2018-06-04 22:26:23,013] len-PC/INFO/stdout: 
+[2018-06-04 22:26:23,013] len-PC/INFO/stdout: Get wrong respone:Transaction submission successful
+[2018-06-04 22:26:23,013] len-PC/INFO/stdout: 
+[2018-06-04 22:26:23,387] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:23,387] len-PC/INFO/stdout: 
+[2018-06-04 22:26:23,387] len-PC/INFO/stdout: Get wrong respone:{"index": 28, "data": {"transactions": [{"to": "Freda.Clarke", "amount": 37809, "from": "Frank.Smith"}, {"to": "Athena.Thomas", "amount": 59897, "from": "Athena.Williams"}, {"to": "Freda.Brown", "amount": 76862, "from": "Frank.Johnson"}, {"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 824, "from": "network"}], "proof-of-work": 54}, "hash": "08b068ef3ebd77875b2c76303d3914cb7e315a99205ca0d345d14b02fe2c9f9c", "timestamp": "2018-06-04 22:26:23.387000"}
+[2018-06-04 22:26:23,387] len-PC/INFO/stdout: 
+[2018-06-04 22:26:24,183] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:24,183] len-PC/INFO/stdout: 
+[2018-06-04 22:26:24,183] len-PC/INFO/stdout: Get wrong respone:{"index": 29, "data": {"transactions": [{"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 254, "from": "network"}], "proof-of-work": 252}, "hash": "a3ae9bade7f672a862633209c8dc7bf6a286afe1fb6900fee1d8d4bf817d67d2", "timestamp": "2018-06-04 22:26:24.183000"}
+[2018-06-04 22:26:24,183] len-PC/INFO/stdout: 
+[2018-06-04 22:26:24,292] len-PC/INFO/stdout: mine,<Response [200]>
+[2018-06-04 22:26:24,292] len-PC/INFO/stdout: 
+[2018-06-04 22:26:24,292] len-PC/INFO/stdout: Get wrong respone:{"index": 30, "data": {"transactions": [{"to": "q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount": 413, "from": "network"}], "proof-of-work": 261}, "hash": "8ee37bee959a1f96f122ad50a00d0705cf5727dfaf2110909d47ba76f3f59a80", "timestamp": "2018-06-04 22:26:24.292000"}
+[2018-06-04 22:26:24,292] len-PC/INFO/stdout: 
+[2018-06-04 22:26:24,915] len-PC/INFO/locust.main: Time limit reached. Stopping Locust.
+[2018-06-04 22:26:24,915] len-PC/INFO/locust.main: Shutting down (exit code 0), bye.
