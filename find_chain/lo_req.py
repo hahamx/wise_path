@@ -69,6 +69,6 @@ class mobile_user(HttpLocust):
 
 if __name__ == '__main__':
     p1 = subprocess.Popen(
-        'locust -f ./lo_req.py --host=http://127.0.0.1:5002 --logfile=./mark/locust.log --loglevel=INFO --no-web -c 2 -r 1 -t 10',
+        'locust -f ./lo_req.py --host=http://127.0.0.1:5002 --logfile=./mark/loc.log --loglevel=INFO --no-web -c 2 -r 1 -t 10',
         stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
     p1.communicate()
