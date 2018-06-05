@@ -20,11 +20,9 @@ class Bloc:
         return sha.hexdigest()
 
 def create_gene_block():
-    "the first blockcoin"
     return Bloc(0,datetime.datetime.now(), 'genesis_block', '0')
 
 def next_block(last_block):
-    """the next block after first"""
     this_index = last_block.index + 1
     this_timestamp = datetime.datetime.now()
     this_data = "here is blok" + str(this_index)
