@@ -6,8 +6,8 @@ import json
 # urllib
 protoco = "http"
 host = "127.0.0.1"
-port = "5002"
-path = "/txion"
+port = "12380"
+path = "/"
 __header_key = 'content-type'
 __header_value = 'application/json'
 
@@ -40,3 +40,6 @@ def PostRequest(jsonP=None, method="POST"):
 
 if __name__ == '__main__':
     print PostRequest(jsonP={"from":"network", "to":"Jack", "amount": 18881})
+    PostRequest(jsonP={"resources": {"dut": "any_ts", "endpoint1": "multistream_endpoint", "endpoint2": "multistream_endpoint"}})
+    PostRequest(jsonP={"action": "dial_out_ep", "serverName": "dut", "confName": "GURU_SLAVE_TS", "epName": "endpoint1"})
+    PostRequest(jsonP={"resources": {"from":"network", "to":"q3nf394hjg-random-miner-address-34nf3i4nflkn3oi", "amount":178, "RMB":1130.3}})
